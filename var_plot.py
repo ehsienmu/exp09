@@ -14,6 +14,7 @@ for k, v in dct_var.items():
     y.append(v.item())
     print(k, v)
 plt.plot(x, y)
+plt.title('freq to var')
 plt.savefig('./var.png')
 
 # print(new_dict)
